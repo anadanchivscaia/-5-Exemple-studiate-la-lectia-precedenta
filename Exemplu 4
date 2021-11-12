@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        Nume <input type="text"> <br>
+        Virsta <input type="number"> <br>
+        Data nasterii <input type="date"> <br>
+        Genul <input type="radio" name="gen"> M <input type="radio" name="gen"> F <br>
+        Limbi vorbite: <br>
+        <input type="checkbox"> Engleza <br>
+        <input type="checkbox"> Franceza <br>
+        <input type="checkbox"> Spaniola <br>
+        Tara unde am calatorit ultima data: 
+        <select name="" id="">
+            <option value="">Moldova</option>
+            <option value="">Romania</option>
+            <option value="">Ucraina</option>
+        </select>
+
+        <br>
+        Biografie: <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        Culoare preferat: <input type="color">
+
+    </form>
+</body>
+</html>
